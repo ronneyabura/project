@@ -1,0 +1,201 @@
+{
+  "canvas": {
+    "version": "2.2.10",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Employees",
+        "comment": "Employee details",
+        "columns": [
+          {
+            "name": "EmpCode",
+            "comment": "Primary Key",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 72.7890625,
+              "widthDataType": 64.60693359375,
+              "widthDefault": 60
+            },
+            "id": "a4528a21-fed9-437b-9483-cb66e3b20b65"
+          },
+          {
+            "name": "Name",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.60693359375,
+              "widthDefault": 60
+            },
+            "id": "ee0c2f46-b4cd-45c6-ae97-93f3329e905e"
+          },
+          {
+            "name": "DepCode",
+            "comment": "Foreign Key",
+            "dataType": "VARCHAR",
+            "default": "HR",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 72.0908203125,
+              "widthDataType": 64.60693359375,
+              "widthDefault": 60
+            },
+            "id": "c7397be6-5c2c-4b0f-b0ed-cafa9b24d050"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 63,
+          "top": 79,
+          "zIndex": 59,
+          "widthName": 66.30810546875,
+          "widthComment": 100.998046875
+        },
+        "visible": true,
+        "id": "330610d1-0620-4d8b-9667-f74036a30cdf"
+      },
+      {
+        "name": "Department",
+        "comment": "",
+        "columns": [
+          {
+            "name": "DepCode",
+            "comment": "Primary Key",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 72.7890625,
+              "widthDataType": 64.60693359375,
+              "widthDefault": 60
+            },
+            "id": "8061c0bc-27b8-456a-b587-d9f753cc6b1b"
+          },
+          {
+            "name": "DepName",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60.525390625,
+              "widthComment": 60,
+              "widthDataType": 64.60693359375,
+              "widthDefault": 60
+            },
+            "id": "7ffed653-29cc-47b8-b203-677695ba49fc"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 457,
+          "top": 85,
+          "zIndex": 60,
+          "widthName": 69.919921875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "dcc8fc96-ca1f-420d-92bc-68d309320e48"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": []
+  }
+}
